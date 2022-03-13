@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  get "/phrase" => "params#capitalize"
+  get "/input" => "params#capitalize"
+  get "/input/:phrase" => "params#capitalize"
 end
